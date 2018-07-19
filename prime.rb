@@ -1,7 +1,7 @@
 def prime?(int)
   if int==2 
     return true
-  elsif int < 0 
+  elsif int < 0 || int == 0 || int == 1 
     return false
   end
   
